@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{378e2666-5896-44e8-a5d4-14be32659273}">
+		<property name="assetPath">
+			<value>1255574.audio-WATRMisc-Mid_Water_Texture_13.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>15.258645833333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02cd0c72-dd9b-4961-b41e-bdee86309e63}</destination>
+		</relationship>
+	</object>
+</objects>
