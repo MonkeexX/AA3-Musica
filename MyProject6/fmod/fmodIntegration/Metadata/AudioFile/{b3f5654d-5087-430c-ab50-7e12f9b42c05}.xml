@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b3f5654d-5087-430c-ab50-7e12f9b42c05}">
+		<property name="assetPath">
+			<value>216867-Demonic_Laughter_10.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02cd0c72-dd9b-4961-b41e-bdee86309e63}</destination>
+		</relationship>
+	</object>
+</objects>
