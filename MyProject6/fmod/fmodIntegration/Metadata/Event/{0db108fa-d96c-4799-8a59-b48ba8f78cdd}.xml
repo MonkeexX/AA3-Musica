@@ -5,7 +5,7 @@
 			<value>LaughterRandomPitch&amp;Volume</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8376a9e9-0af1-4f43-a84b-d58022fd2e3d}</destination>
@@ -139,6 +139,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b57e15c8-a636-49ad-b397-fc3834f94956}">
 		<relationship name="effects">
+			<destination>{0f933eec-f67a-4da7-9db3-0162406258b2}</destination>
+			<destination>{208d081a-9e06-45be-a3b1-b6daf88d41a3}</destination>
 			<destination>{4bb17a32-d455-4040-adfc-ad51d9957ba1}</destination>
 		</relationship>
 	</object>
@@ -166,6 +168,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87a2a6ad-d0a9-405a-bc1f-6405897deed0}" />
+	<object class="SpatialiserEffect" id="{0f933eec-f67a-4da7-9db3-0162406258b2}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+		<property name="maximumDistance">
+			<value>45</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{208d081a-9e06-45be-a3b1-b6daf88d41a3}" />
 	<object class="MixerBusFader" id="{4bb17a32-d455-4040-adfc-ad51d9957ba1}" />
 	<object class="MixerBusFader" id="{ed4b7d27-e8fc-4b25-a47c-8ed2808a2b91}" />
 </objects>

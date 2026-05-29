@@ -5,7 +5,7 @@
 			<value>LaughterRandom</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8376a9e9-0af1-4f43-a84b-d58022fd2e3d}</destination>
@@ -150,10 +150,19 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{30262837-bc8a-4e0c-a6a3-747bf05e8341}">
 		<relationship name="effects">
+			<destination>{9a7d8469-3989-45ea-a38f-2d95fda4b30e}</destination>
 			<destination>{edd6a91f-d778-4cb9-b485-a11966d747ac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{19916904-eb06-481d-94aa-dc6dfcc9b317}" />
 	<object class="MixerBusFader" id="{a0b8da76-1dcc-4eab-bbcc-27699adc7af2}" />
+	<object class="SpatialiserEffect" id="{9a7d8469-3989-45ea-a38f-2d95fda4b30e}">
+		<property name="maximumDistance">
+			<value>6.4000001</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{edd6a91f-d778-4cb9-b485-a11966d747ac}" />
 </objects>
